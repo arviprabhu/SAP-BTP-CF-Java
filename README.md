@@ -19,10 +19,12 @@ File or Folder | Purpose
 ##Useful commands
 Command | Purpose
 ---------|----------
-- npm install --save-dev sqlite3 | To add the sqlite3 dependency
-- cds deploy --to sqlite | To deploy the csv data , tables and views(cds services) to sqlite
-- mvn spring-boot:run | To run the application
-- killall mvn | To kill all services running (helpful when you get port in use error)
+- `npm install --save-dev sqlite3` | To add the sqlite3 dependency
+- `cds deploy --to sqlite` | To deploy the csv data , tables and views(cds services) to sqlite
+- `mvn spring-boot:run` | To run the application
+- `killall mvn` | To kill all services running (helpful when you get port in use error)
+-`cds watch` | To keep watch of changes and restart 
+-`cds --help` | help 
 
 ##Issues
 - cds deploy --to sqlite : sometime may cause error
