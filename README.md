@@ -17,6 +17,7 @@ File or Folder | Purpose
 - Start adding content, for example, a [db/schema.cds](db/schema.cds).
 
 ##Useful commands
+
 Command | Purpose
 ---------|----------
 - `npm install --save-dev sqlite3` | To add the sqlite3 dependency
