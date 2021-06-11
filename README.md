@@ -16,6 +16,23 @@ File or Folder | Purpose
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 - Start adding content, for example, a [db/schema.cds](db/schema.cds).
 
+##Useful commands
+Command | Purpose
+---------|----------
+- npm install --save-dev sqlite3 | To add the sqlite3 dependency
+- cds deploy --to sqlite | To deploy the csv data , tables and views(cds services) to sqlite
+- mvn spring-boot:run | To run the application
+- killall mvn | To kill all services running (helpful when you get port in use error)
+
+##Issues
+- cds deploy --to sqlite : sometime may cause error
+- Solution
+  - npm install
+  - unset NODE_PATH
+  - then try cds deploy --to sqlite
+
+
+
 
 ## Learn More
 
