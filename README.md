@@ -18,7 +18,7 @@ File or Folder | Purpose
 
 ##Useful commands
 
-Command | Purpose
+Command   | Purpose
 ---------|----------
 - `npm install --save-dev sqlite3` | To add the sqlite3 dependency
 - `cds deploy --to sqlite` | To deploy the csv data , tables and views(cds services) to sqlite
