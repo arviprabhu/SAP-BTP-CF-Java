@@ -14,6 +14,15 @@
 
 	<!-- ACTUAL DEPENDENCIES -->
 	<dependencies>
+	<!-- hana dependency -->
+        <dependency>
+             <groupId>com.sap.cds</groupId>
+            <artifactId>cds-feature-hana</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.cds</groupId>
+            <artifactId>cds-feature-cloudfoundry</artifactId>
+        </dependency>
 		<!-- CDS SPRING BOOT STARTER -->
 		<dependency>
 			<groupId>com.sap.cds</groupId>
